@@ -1,0 +1,40 @@
+.daybox {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 57px;
+  border: 1px solid #efeff0;
+}
+
+.daybox:first-of-type {
+  background-color: #F8F8FF;
+}
+
+p {
+  margin: 0;
+}
+
+.weekday {
+  font-size: 11px;
+  color: #a5a5a6;
+}
+
+.daybox > img {
+  margin-top: -7px;
+  margin-bottom: -7px;
+}
+
+.high,
+.low {
+  font-size: 11px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.high {
+  font-weight: 700;
+}
+
+.low {
+  color: #a4a4a6;
+}
